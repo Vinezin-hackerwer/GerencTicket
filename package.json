@@ -1,0 +1,13 @@
+{
+  "name": "gerenciador-tickets-monorepo",
+  "version": "1.0.0",
+  "description": "Sistema Web de Gerenciamento de Tickets (Helpdesk)",
+  "scripts": {
+    "install:all": "cd backend && npm install && cd ../frontend && npm install",
+    "seed": "cd backend && npm run seed",
+    "server": "cd backend && npm start",
+    "client": "cd frontend && npm run dev",
+    "test:flow": "node backend/test-flow.js"
+  },
+  "keywords": ["helpdesk", "tickets", "react", "express", "sqlite"]
+}
